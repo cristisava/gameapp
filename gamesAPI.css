@@ -1,0 +1,36 @@
+#api {
+    display: flex;
+    flex-direction: column;
+    color: red;
+    text-align: center;
+    padding: 1em;
+}
+
+h1 {
+    text-align: center;
+    color: red;
+}
+
+img {
+    width: 10%;
+    height: 10%;
+    margin-top: 400px;
+}
+
+html {
+    background-image: url("gaming.jpg");
+    min-height: 100%;
+    min-width: 1024px;
+    width: 100%;
+    height: auto;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+@media screen and (max-width: 1024px) {
+    img.bg {
+        left: 50%;
+        margin-left: -512px;
+    }
+}
